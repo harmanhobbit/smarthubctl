@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+
 import socket
 import sys
 
@@ -13,7 +15,7 @@ BUFFER_SIZE = 2048
 # print(routeInput(sys.argv[0], int(sys.argv[1]), int(sys.argv[2])))
 
 smarthubSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-smarthubSocket.connect(("192.168.1." + address, 9990))
+smarthubSocket.connect(address, 9990)
 smarthubSocket.send(routeInput(sys.argv[0], int(sys.argv[1]), int(sys.argv[2])))
 data = smarthubSocket.recv(BUFFER_SIZE)
 smarthubSocket.close
