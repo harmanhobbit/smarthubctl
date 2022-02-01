@@ -1,4 +1,4 @@
-#Disclaimer
+# Disclaimer
 I no longer have access to a Blackmagix Design Smart Videohub and I am unlikey to get access any time soon. Due I am unable to test any changes personally. If you would like to use this script and are willing to keep a dialogue going about any issues you have please use the github issue reporting and I will try to fix it. However, with out the actual equipment my fixes are just stabs in the dark.
 
 # smarthubctl
