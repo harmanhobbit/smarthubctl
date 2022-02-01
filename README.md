@@ -11,7 +11,13 @@ All methods of use require the <IP ADDRESS> placeholder to be changed for the IP
 Using the script from the command line called in the following way:
 `python smarthubctl.py *input* *output*`
 
+For example to route input 5 to ouput 7 the command would look something like this:
+`python smarthubctl.py 5 7`
+
 To allow the script to run from QLab, you need to call the python script from an AppleScript cue like so: 
 `'do shell script "python /path/to/script/smarthubctl.py *input* *output*"'`
+
+To route the same example as above from QLab the AppleScript cue would read:
+`'do shell script "python /path/to/script/smarthubctl.py 5 7"'`
   
 More details can be found here https://blog.allaway.tech/qlab/controlling-blackmagic-design-smart-videohubs-from-qlab/
