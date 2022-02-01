@@ -1,3 +1,6 @@
+#Disclaimer
+I no longer have access to a Blackmagix Design Smart Videohub and I am unlikey to get access any time soon. Due I am unable to test any changes personally. If you would like to use this script and are willing to keep a dialogue going about any issues you have please use the github issue reporting and I will try to fix it. However, with out the actual equipment my fixes are just stabs in the dark.
+
 # smarthubctl
 A simple python script for controlling Blackmagic Design Smart Videohub unit. This script is intended to allow for the control of a single unit over TCP/IP from the show control software QLab. However, it can also be run manually from a shell, where it should be cross-platform compatible.
 
