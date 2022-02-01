@@ -8,7 +8,7 @@ address = "<IP ADDRESS>"
 def routeInput(self, input, output):
   input -= 1
   output -= 1
-  return "VIDEO OUTPUT ROUTING:\n%s %d\n\n" %(output, input)
+  return "VIDEO OUTPUT ROUTING:\n%d %d\n\n" %(output, input)
 
 BUFFER_SIZE = 2048
 
